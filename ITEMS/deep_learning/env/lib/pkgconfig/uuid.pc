@@ -1,0 +1,11 @@
+prefix=/home/ryan/Music/deep_learning/env
+exec_prefix=/home/ryan/Music/deep_learning/env
+libdir=/home/ryan/Music/deep_learning/env/lib
+includedir=/home/ryan/Music/deep_learning/env/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid

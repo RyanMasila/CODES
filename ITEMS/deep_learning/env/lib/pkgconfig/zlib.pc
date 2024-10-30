@@ -1,0 +1,13 @@
+prefix=/home/ryan/Music/deep_learning/env
+exec_prefix=/home/ryan/Music/deep_learning/env
+libdir=/home/ryan/Music/deep_learning/env/lib
+sharedlibdir=/home/ryan/Music/deep_learning/env/lib
+includedir=/home/ryan/Music/deep_learning/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

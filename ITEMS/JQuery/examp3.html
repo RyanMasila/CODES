@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>jQuery</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="divTest">
+     <b>Test</b>
+      <input type="text" id="txtTest" name="txtTest" value="Input Field"/>
+    </div>
+    <script type="text/javascript">
+    $(function() {
+      alert("Text: " + $("#divTest").text());
+      alert("HTML: " + $("#divTest").html());
+      alert("Value: " + $("#divTest").val());
+
+      alert("Text: " + $("#txtTest").text());
+	    alert("HTML: " + $("#txtTest").html());
+	    alert("Value: " + $("#txtTest").val());
+    });
+    </script>
+  </body>
+
+</html>
+

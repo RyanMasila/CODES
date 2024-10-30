@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+}
+
+div {
+    /* border: 2px solid; */
+    /* height: 75px; */
+    /* overflow: visible; allows content to overflow */
+    /* overflow: hidden; hides the overflowing part */
+    /* overflow: clip;
+    overflow-clip-margin: 13px; */
+    /* overflow: scroll; */
+    /* overflow: auto;  */
+    /* overflow: auto = if the scroll bar isn't need i.e the content isn't too much to overflow, the scroll bar won't be visible*/
+    
+}
+
+#div {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    /* display: block; */
+    /* display: inline; */
+    display: inline-block;
+    visibility: hidden;
+}
+
+span {
+    background-color: rgb(0, 217, 255);
+    /* height and width won't apply for a span */
+    height: 100px;
+    width: 100px;
+    /* display: block; */
+    /* display: inline; */
+    display: inline-block;
+    /* display: none; not visible */
+}
+
+.box {
+    background-color: white;
+    border: 2px solid;
+    padding: 25px;
+    height: auto;
+    width: 50%;
+    float: left;
+    text-align: center;
+
+    /* min-width: 15%;
+    min-height: 25%; */
+    max-width: 75%;
+    min-height: 75%;
+}
+
+.container {
+    background-color: hsl(0, 0%, 24%);
+    height: 100vh; /* view-port height */
+}
+
+#box1 {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    /* position: fixed; */
+    position: sticky; /* for sticky, space is reserved unlike fixed */
+    /*right: 0px;
+    bottom: 0px; */
+    /* position: relative; */
+    top: 0px;
+    /* left: 100px;  */
+}
+
+#box2 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    /* position: absolute; */
+    position: static;
+    top: 50px;
+    left: 50px;
+}
+
+#body {
+    background-image: url(Images/Wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#container {
+    border: 2px solid;
+}
+
+/* #container p {
+    background-color: rgb(72, 238, 66);
+} */
+
+/* #container > p {
+    background-color: rgb(72, 238, 66);
+} */
+
+/* #container ~ p {
+    background-color: rgb(72, 238, 66);
+} */
+
+#container + p {
+    background-color: rgb(72, 238, 66);
+}
+
+a:link {
+    color: hsl(221, 100%, 74%);
+    font-size: 40px;
+}
+
+a:hover {
+    color: hsl(221, 100%, 86%);
+}
+
+a:active {
+    color: hsl(240, 100%, 50%);
+}
+
+a:visited {
+    color: hsl(0, 0%, 75%);
+}
+
+li:hover {
+    background-color: hsl(60, 100%, 72%);
+}
+
+li:not(:hover) {
+    background-color: hsl(0, 0%, 76%);
+}
+
+/* li:nth-child(5) {
+    background-color: rgb(21, 240, 21);
+} */
+
+/* li:nth-child(even) {
+    background-color: rgb(21, 240, 21);
+} */
+
+/* li:nth-child(odd) {
+    background-color: rgb(21, 240, 21); 
+} */
+
+li:nth-child(3n+2) {
+    background-color: rgb(21, 240, 21);
+}
+
+#greeting p {
+    background-color: hsl(196, 100%, 81%);
+    padding: 10px;
+    display: none;
+}
+
+#greeting:hover p{
+    display: block;
+}

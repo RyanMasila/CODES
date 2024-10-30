@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <p>Element Selector</p><br>
+    <p id="test">ID Selector</p><br>
+    <p class="test">Class Selector</p><br>
+    <button id="b1">Element</button><br>
+    <button id="b2">ID</button><br>
+    <button id="b3">Class</button>
+<script>
+$(document).ready(function(){
+$("#b1").click(function(){
+  $("p").hide();
+});
+$("#b2").click(function(){
+    $("#test").hide();
+});
+$("#b3").click(function(){
+    $(".test").hide();
+})
+})
+</script>
+</body>
+</html>

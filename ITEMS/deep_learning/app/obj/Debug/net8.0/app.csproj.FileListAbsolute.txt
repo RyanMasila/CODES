@@ -1,0 +1,14 @@
+/home/ryan/Music/app/bin/Debug/net8.0/app
+/home/ryan/Music/app/bin/Debug/net8.0/app.deps.json
+/home/ryan/Music/app/bin/Debug/net8.0/app.runtimeconfig.json
+/home/ryan/Music/app/bin/Debug/net8.0/app.dll
+/home/ryan/Music/app/bin/Debug/net8.0/app.pdb
+/home/ryan/Music/app/obj/Debug/net8.0/app.GeneratedMSBuildEditorConfig.editorconfig
+/home/ryan/Music/app/obj/Debug/net8.0/app.AssemblyInfoInputs.cache
+/home/ryan/Music/app/obj/Debug/net8.0/app.AssemblyInfo.cs
+/home/ryan/Music/app/obj/Debug/net8.0/app.csproj.CoreCompileInputs.cache
+/home/ryan/Music/app/obj/Debug/net8.0/app.dll
+/home/ryan/Music/app/obj/Debug/net8.0/refint/app.dll
+/home/ryan/Music/app/obj/Debug/net8.0/app.pdb
+/home/ryan/Music/app/obj/Debug/net8.0/app.genruntimeconfig.cache
+/home/ryan/Music/app/obj/Debug/net8.0/ref/app.dll

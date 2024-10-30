@@ -1,0 +1,98 @@
+h1{
+    color: white;
+}
+
+#h1 {
+    color: black;
+    font-family: verdana, arial;
+    font-size: 50px;
+    
+}
+
+#margin {
+    margin: 0px;
+}
+
+.box {
+    border: 5px solid;
+    font-size: 5em;
+    width: 250px;
+    height: 250px;
+    /* margin: 50px; */
+    margin: auto;
+}
+
+#box2 {
+    background-color: rgb(255, 15, 15);
+    /* margin-top: 50px;
+    margin-left: 50px; */
+    margin-left: auto;
+}
+
+#box3 {
+    background-color: rgb(0, 255, 255);
+}
+
+#box1 {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    box-shadow: 3px 3px 5px;
+}
+
+#shadowed-header {
+    text-shadow: 3px 3px 5px rgb(255, 70, 70), -3px -3px 5px rgb(0, 225, 255);
+}
+
+#bordered-header {
+    /* border-style: solid;
+    border-width: 5px;
+    border-color: hsl(295, 100%, 25%); */
+    border: 5px solid hsl(327, 100%, 25%);
+    border-radius: 40px;
+}
+
+#p1  {
+    border-bottom: 4px solid red;
+    border-top: 4px solid rgb(0, 47, 255);
+    border-right: 4px dotted #59ff5f;
+    border-left: 4px dotted orange;
+
+    border-radius: 10px;
+}
+
+#body {
+    border: 5px solid;
+    display: flow-root; /*flow-root makes sure that anything within the borders isn't overflowing*/
+}
+
+#img1 {
+    float: left;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+#img2 {
+    float: right;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+
+p {
+    /* font-family: "lucida console", "courier new"; */
+    font-size: 1.5em; /* 1em = 100% */
+    /* font-weight: bold; */
+    /* font-style: italic; */
+}
+
+#p2 {
+    color: hsl(283, 100%, 64%);
+}
+
+#p3 {
+    color: rgb(102, 222, 255);
+}
+
+.odd {
+    color: #59ff5f;
+}
